@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Discussion from "../components/Discussion";
+import Discussion from "../components/Dicsussion/Discussion";
 
 export default function Home() {
   return (

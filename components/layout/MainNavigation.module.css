@@ -1,0 +1,46 @@
+/* Blue #355070
+Purple #6d597a
+Plum #b56576
+Pinc #e56b6f
+Peach #eaac8b */
+
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #355070;
+  padding: 0 10%;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #eaac8b;
+  font-weight: bold;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #eaac8b;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #e56b6f;
+}

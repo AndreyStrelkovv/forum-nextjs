@@ -1,0 +1,43 @@
+/* Blue #355070
+Purple #6d597a
+Plum #b56576
+Pinc #e56b6f
+Peach #eaac8b */
+
+.discussion {
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+  border: 2px solid #e56b6f;
+  border-radius: 30px;
+
+  background-color: #eaac8b;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  box-shadow: 5px 10px 18px #888888;
+}
+.discussion:hover {
+  transition: all 0.3s linear;
+  transform: scale(1.05);
+  box-shadow: 5px 10px 40px #888888;
+}
+
+.title {
+  font-size: 1.3em;
+}
+.title h2 {
+  margin: 0;
+  margin-bottom: .5em;
+
+  color: #355070;
+}
+
+.description {
+  font-size: 1.2em;
+}
+.description p {
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  color: #355070;
+}
