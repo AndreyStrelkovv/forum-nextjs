@@ -9,8 +9,10 @@ git add .
 git commit -m "Testing if commit works"
 git push origin main
 
-Making sure my contribution is visible:
+Making sure my contribution is visible (setting email address in GitBash so it is the same to my GitHub account):
 $ git config user.email "andrey.strelkovv@gmail.com"
+
+https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address
 
 COLOURS:
 Blue #355070
