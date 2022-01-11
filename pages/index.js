@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Discussion from "../components/Dicsussion/Discussion";
+import DuscussionList from "../components/Dicsussion/DuscussionList";
 
 export default function Home() {
   return (
     <Fragment>
-      <Discussion/>
+      <DuscussionList/>
     </Fragment>
   )
 }

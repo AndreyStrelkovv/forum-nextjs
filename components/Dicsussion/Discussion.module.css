@@ -15,6 +15,8 @@ Peach #eaac8b */
   cursor: pointer;
   transition: all 0.3s linear;
   box-shadow: 5px 10px 18px #888888;
+
+  margin-bottom: 2em;
 }
 .discussion:hover {
   transition: all 0.3s linear;
@@ -23,13 +25,15 @@ Peach #eaac8b */
 }
 
 .title {
-  font-size: 1.3em;
-}
-.title h2 {
+  font-size: 1.8em;
   margin: 0;
   margin-bottom: .5em;
 
   color: #355070;
+}
+
+.author {
+  color: #6d597a;
 }
 
 .description {
