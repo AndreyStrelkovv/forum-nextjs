@@ -12,7 +12,7 @@ const MainNavigation = () => {
             <Link href='/'>All Dicsuccions</Link>
           </li>
           <li>
-            <Link href='/'>Add New Discussion</Link>
+            <Link href='/new-discussion'>Add New Discussion</Link>
           </li>
         </ul>
       </nav>
